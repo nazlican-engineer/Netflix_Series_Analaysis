@@ -1,49 +1,52 @@
 # Netflix_Series_Analaysis
  In this project, I performed various analyses using the 'Netflix Movies and TV Shows' dataset from Kaggle.
+ 
+**Netflix Movies and TV Shows Data Analysis 🎬📺**
 
-**Netflix Filmleri ve TV Şovları Veri Analizi 🎬📺**
-Bu projede, Kaggle'dan temin edilen "Netflix Movies and TV Shows" veri setini kullanarak kapsamlı bir analiz gerçekleştirdim. Veri setini doğrudan indirmek yerine, bir kaggle.json dosyası aracılığıyla hızlı ve verimli bir şekilde erişim sağladım.⚡
+This project involves a comprehensive analysis conducted using the "Netflix Movies and TV Shows" dataset obtained from Kaggle. Instead of directly downloading the dataset, I accessed and analyzed the data rapidly and efficiently via a kaggle.json file. ⚡
 
-**Proje Amacı:** Bu proje, Netflix içeriklerinin dağılımını, popülerlik eğilimlerini ve önemli özelliklerini görselleştirerek veri odaklı içgörüler sunmayı hedeflemektedir.
+**Project Goal:** This project aims to provide data-driven insights by visualizing the distribution, popularity trends, and key characteristics of Netflix content.
 
-**Uygulanan Analiz Adımları ve Çözülen Sorunlar:**
+**Implemented Analysis Steps and Problems Addressed:**
 
-**1-)Veri Temizliği ve Ön İşleme:**
+**1-) Data Cleaning and Preprocessing:**
 
-Veri setindeki Null değerlerin tespiti ve ilgili sütunlardan temizlenmesi gerçekleştirildi.
+Detection and cleaning of Null values within the dataset from relevant columns were performed.
 
-Orijinal veri setinin bütünlüğünü korumak amacıyla bir çalışma kopyası oluşturuldu.
+A working copy of the original dataset was created to preserve its integrity.
 
-**2-)İçerik Türü Dağılımı Analizi:**
+**2-) Content Type Distribution Analysis:**
 
-Netflix platformundaki "Film" ve "TV Şovu" içeriklerinin sayısal dağılımı bir çubuk grafik (Bar Chart) ile görselleştirilerek içerik portföyünün genel yapısı belirlendi.
+The numerical distribution of "Movie" and "TV Show" content on the Netflix platform was visualized using a Bar Chart, determining the general structure of the content portfolio.
 
-**3-)Yaş Kategorisi (Rating) Analizi:**
+**3-) Age Category (Rating) Analysis:**
 
-İçeriklerin yaş derecelendirme oranları (Rating) yine bir çubuk grafik (Bar Chart) ile analiz edildi. Bu sayede, kullanıcıların yaş kategorilerine uygun içeriklerin dağılımı net bir şekilde ortaya kondu.
+The age rating ratios (Rating) of the content were analyzed using another Bar Chart. This clearly revealed the distribution of content suitable for users' age categories.
 
-Ayrıca, farklı yaş kategorilerine göre "Film" ve "TV Şovu" dağılımları da benzer bir çubuk grafik ile incelendi.
+Additionally, the distributions of "Movie" and "TV Show" content across different age categories were also examined with a similar Bar Chart.
 
-**4-)Tür Dağılımı ve Derecelendirme Oranları Görselleştirmesi:**
+**4-) Genre Distribution and Rating Ratios Visualization:**
 
-Dizi/film türlerinin dağılımı bir pasta grafiği (Pie Chart) ile daha belirgin hale getirildi.
+The distribution of series/film genres was made more distinct using a Pie Chart.
 
-Benzer şekilde, yaş derecelendirmelerinin (Rating) genel dağılımı da bir pasta grafiği aracılığıyla görselleştirildi.
+Similarly, the overall distribution of age ratings (Rating) was also visualized via a Pie Chart.
 
-**5-)Oyuncu Analizi (Word Cloud):**
+**5-) Actor Analysis (Word Cloud):**
 
-WordCloud kütüphanesi kullanılarak, veri setinde en fazla yer alan oyuncuların isimleri belirgin bir görselle (Word Cloud) analiz edildi. Bu, popüler oyuncu eğilimlerini hızlıca görmeyi sağladı.
+Using the WordCloud library, the names of the most frequently appearing actors in the dataset were analyzed with a prominent visual (Word Cloud). This provided a quick insight into popular actor trends.
 
-**Kullanılan Araçlar ve Kütüphaneler:**
+**Tools and Libraries Used:**
 
-Bu projenin geliştirilmesinde Python programlama dili ve aşağıdaki kütüphanelerden faydalanılmıştır:
+This project was developed using the Python programming language and leveraged the following libraries:
 
-**Pandas:** Veri manipülasyonu ve analizi için.
+**Pandas:** For data manipulation and analysis.
 
-**NumPy:** Sayısal işlemler için (Pandas bağımlılığı).
+**NumPy:** For numerical operations (a dependency for Pandas).
 
-**Seaborn:** Estetik ve bilgilendirici istatistiksel grafikler oluşturmak için.
+**Seaborn:** For creating aesthetic and informative statistical graphics.
 
-**Matplotlib:** Grafikler üzerinde detaylı özelleştirmeler yapmak için.
+**Matplotlib:** For detailed customization of plots.
 
-**WordCloud:** Metin verilerinden kelime bulutu görselleri oluşturmak için.
+**WordCloud:** For generating word cloud visuals from text data.
+
+
